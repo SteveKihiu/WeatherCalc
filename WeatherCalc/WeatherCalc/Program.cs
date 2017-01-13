@@ -30,7 +30,7 @@ namespace WeatherCalc
 
                     int day, mxt, mnt;
 
-                    //Convert the values to indivual variables
+                    //Convert the values to individual variables
                     day = int.Parse(string.Join(null, System.Text.RegularExpressions.Regex.Split(numbers[0], "[^\\d]")));
 
                     mxt = int.Parse(string.Join(null, System.Text.RegularExpressions.Regex.Split(numbers[1], "[^\\d]")));
